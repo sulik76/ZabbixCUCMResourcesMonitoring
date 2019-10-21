@@ -16,10 +16,10 @@ This template monitors the resources of each node of the CUCM cluster through AX
 
 ## What do you need?
 
-**Create a user and give him the appropriate authority in CUCM**
+* **Create a user and give him the appropriate authority in CUCM**
 
-* Create Application User for Zabbix
 * Create an Access Control Group and assign the roles below.
 ![Access Control Group](images/Create_Access_Group.PNG "Access Control Group") 
 
-
+* Create an Application User for Zabbix and add him to created group. Add him to "Standard CCM Server Monitoring" group too.
+![Application User](images/App_User_Permissions.PNG "Application User") 
