@@ -2,7 +2,7 @@
 
 This template monitors the resources of each node of the CUCM cluster through AXL:
 
-* Active Calls
+* Calls Active
 * Annunciator Out Of Resources
 * HW Conference Out Of Resources
 * Location Out Of Resources
