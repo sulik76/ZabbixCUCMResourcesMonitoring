@@ -31,4 +31,4 @@ This template monitors the resources of each node of the CUCM cluster through AX
 * Add CUCM node IP address on "Agent interfaces"
 * Add macro {$ZABBIX_APIUSER_UC} - value: Username of Zabbix in CUCM.
 * Add macro {$ZABBIX_APIPASS_UC} - value: Password of the Zabbix user in CUCM.
-* Attach "Cisco AXL Resources Status" template to the host.
+* Attach "Cisco AXL Resources Monitoring" template to the host.
